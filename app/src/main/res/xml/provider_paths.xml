@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <paths >
+        <external-path name="external_files" path="Android/data/com.chuan_sir.h5callandroidcamera/files/Pictures"/>
+    </paths>
+
+</resources>

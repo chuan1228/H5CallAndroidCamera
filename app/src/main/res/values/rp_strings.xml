@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 请求数据规定的参数  暂时不写到代码中 方便修改 -->
+    <string name="req_key">B9D9C542BC4D967CEDAEAA67EC1</string>
+    <string name="app_id">88F6E171CC6AEAA4022FC35AA7DA4BB5</string>
+    <string name="sign">a0QngNa824TS1</string>
+
+    <string name="red_sdk_common_comma">，</string>
+    <string name="red_sdk_common_cancel">取消</string>
+     <string name="red_sdk_common_wallet">和包支付</string>
+    
+    <!-- 初始化SDK 时候的提示信息 -->
+    <string name="redpaper_out_date">超过1天未领取,红包已失效</string>
+    <string name="redpaper_grab_finish">手慢了,红包派完了</string>
+    <string name="redpaper_has_grabed">红包已抢过</string>
+    <string name="login_0">初始化SDK 参数为null,请传入正确数值</string>
+    <string name="login_1">网络异常</string>
+    <string name="login_2">认证失败,请重试</string>
+    <string name="get_paper_1">未初始化圈子SDK</string>
+    <string name="get_paper_2">传入参数有误</string>
+    <string name="get_paper_3">服务器返回数据异常</string>
+    <string name="get_paper_4">服务器繁忙</string>
+    <string name="flow_not_enough">余额不足</string>
+    <string name="illegal_phone_num">红包无法送给非手机号用户</string>
+    <string name="fail_unknow">发送失败</string>
+    <string name="fail_tips_server">操作失败,请重试</string>
+    <string name="fail_tips_token">认证失败,请重试</string>
+    <string name="system_busi_now">服务器繁忙</string>
+    <string name="dialog_grab_info_tips">发了一个红包,流量随机</string>
+    <string name="dialog_grab_cash_info_tips">发了一个红包,金额随机</string>
+    <string name="dialog_grab_info_tips_normal">给你发了一个红包</string>
+    <string name="grab_detail_tips_undone">已领取%1$s/%2$s,剩余%3$sM</string>
+    <string name="grab_detail_tips_done">已领取%1$s/%2$s,已领完</string>
+    <string name="bad_network">网络异常，请检查网络</string>
+    <string name="time_out_msg">网络异常，请稍候</string>
+
+    <!-- 红包相关 -->
+    <string name="red_sdk_un_grab_tips">未领取的红包，将于24小时后退回</string>
+    <string name="red_sdk_send_per_title">流量</string>
+    <string name="red_sdk_send_per_unit">M</string>
+    <string name="red_sdk_send_per_unit_G">G</string>
+    <string name="red_sdk_send_title">发红包</string>
+    <string name="red_sdk_beg_title">求红包</string>
+    <string name="red_sdk_num_title">红包个数</string>
+    <string name="red_sdk_unit">个</string>
+    <string name="red_sdk_num_prompt">至少要发一个红包</string>
+    <string name="red_sdk_flow_title_random">总流量</string>
+    <string name="red_sdk_flow_title_avg">单个流量</string>
+    <string name="red_sdk_my_flow">可用流量%1$dM</string>
+    <string name="red_sdk_my_flow_initial_value">可用流量0M</string>
+    <string name="red_sdk_buy">购买</string>
+    <string name="red_sdk_flow_prompt">至少要发1M流量</string>
+    <string name="red_sdk_flow_prompt2">流量数不能少于红包个数</string>
+    <string name="red_sdk_assign_title">流量分发形式</string>
+    <string name="red_sdk_assign_random">拼手气红包</string>
+    <string name="red_sdk_assign_avg">普通红包</string>
+    <string name="red_sdk_rule">发红包动态规则：\n1.在有效期内点赞或者评论动态的好友，均可获得指定的流量数直到红包数量抢完为止\n2.有效期内红包未抢完时，剩余流量自动归还账户</string>
+    <string name="red_sdk_edit_default">发红包拼人气，限量版快来抢啊！</string>
+    <string name="red_sdk_edit_beg_default">本月流量见底，各位打赏点吧！</string>
+    <string name="red_sdk_share_qiang">我已经抢到红包流量 %1$dM，小伙伴加油啦！</string>
+    <string name="red_sdk_share_send">我已发出人气流量%1$dM，小伙伴们加油抢吧!</string>
+    <string name="red_sdk_cancle_beg">确定要取消此次求流量活动?</string>
+    <string name="red_sdk_cancle_send">确定要取消此次发红包?</string>
+    <string name="red_sdk_delete_flow_title">删除后剩余流量自动返回到账户</string>
+    <string name="red_sdk_give_red_flow_0">赠送流量不能为0</string>
+    <string name="red_sdk_num_edit_hint">输入1-100整数</string>
+    <string name="red_sdk_num_one2one_edit_hint">输入1-999整数</string>
+    <string name="red_sdk_flow_edit_hint">输入1-9999整数</string>
+    <string name="red_sdk_flow_edit_hint2">输入1-999整数</string>
+    <string name="red_sdk_content_hint">我有流量，我就任性！</string>
+    <string name="red_sdk_content_hint_per">流量拿走，你跟我走！</string>
+    <string name="red_sdk_assign_text_t">当前为%1$s，改为%2$s</string>
+    <string name="red_sdk_flow_not_enough">可用流量不足</string>
+    <string name="red_sdk_save">已存入我的红包</string>
+    <string name="red_sdk_give_btn_text">打赏</string>
+    <string name="red_sdk_give_mysalf_alarm">不能赏自己流量</string>
+    <string name="red_sdk_give_custom_flow">自定义数量</string>
+    <string name="red_sdk_give_failed">打赏失败</string>
+    <string name="red_sdk_give_failed_flow_not_enough">可用余额不足</string>
+    <string name="red_sdk_get_overdue">红包过期了，下次手快点</string>
+    <string name="red_sdk_get_once">已抢过了，不要太贪心哦</string>
+    <string name="red_sdk_get_over">红包抢完了，让幸运女神下次眷顾吧</string>
+    <string name="red_sdk_get_failed">红包抢失败了</string>
+    <string name="red_sdk_get_loading">抢红包中...</string>
+    <string name="footer_view_bottom_tip">已经全部加载完毕</string>
+    <string name="dialog_charge_title__succ">充值成功</string>
+    <string name="dialog_charge_content_succ">已成功充入手机，手机将于24小时内到账，充值后流量当月有效，详情请咨询10086</string>
+    <string name="dialog_btn_charge_succ">确定</string>
+    <string name="dialog_charge_title__cant">今日无法充值</string>
+    <string name="dialog_charge_content_cant">今天是月底最后一天，无法将流量红包充值到手机</string>
+    <string name="dialog_btn_charge_cant">知道了</string>
+    <string name="dialog_charge_title_not_enough">流量不足</string>
+    <string name="dialog_charge_content_not_enough">可用流量不足%sM，暂不能充到手机</string>
+    <string name="dialog_btn_charge_not_enough">知道了</string>
+    <string name="activity_not_support_yidong_user">暂不支持充值到非移动用户，可把流量转给移动好友使用</string>
+    <string name="red_app_name">我的红包</string>
+    <string name="main_header_get_more_btn">挣流量</string>
+    <string name="main_header_buy_flow_btn">流量购买</string>
+    <string name="main_header_get_charge_btn">充到手机</string>
+    <string name="loading">加载中...</string>
+    <string name="dealing">请稍候...</string>
+    <string name="redpaper_get_more_info">抢更多红包</string>
+    <string name="tab_tips_get_redpaper_M">已收%1$s个, 共计%2$sM, 未收%3$s个</string>
+    <string name="tab_tips_get_redpaper_G">已收%1$s个, 共计%2$sG, 未收%3$s个</string>
+    <string name="tab_tips_send_redpaper_M">共发出%1$s个, 共计%2$sM</string>
+    <string name="tab_tips_send_redpaper_G">共发出%1$s个, 共计%2$sG</string>
+    <string name="tab_fragment_title_get">已收红包</string>
+    <string name="tab_fragment_title_send">已发红包</string>
+    <string name="tab_detail_fragment_title_useful">可用流量</string>
+    <string name="tab_detail_fragment_title_bill_list">账单</string>
+    <string name="red_sdk_title_flow_detailed">账单</string>
+    <string name="activity_main_header_get_detail">查看详情 </string>
+    <string name="activity_main_header_tips">%1$sM流量即将于%2$s日后过期</string>
+    <string name="item_flow_outof_date_str">已过期 %1$s/%2$s个</string>
+    <string name="item_flow_to_send_date_str">已领完 %1$s/%2$s个</string>
+    <string name="item_flow_ongoing_date_str">%1$s/%2$s个</string>
+    <string name="item_flow_outof_data_flow">%1$sM</string>
+    <string name="item_out_date_pre">失效日期 %1$s</string>
+    <string name="left_days">%1$s天</string>
+    <string name="item_current_total_sum">可用流量%1$sM</string>
+    <string name="red_sdk_buy_flow">购买流量</string>
+
+    <!-- 现金红包 -->
+    <string name="red_sdk_cash">金额</string>
+    <string name="red_sdk_cash_unit">元</string>
+    <string name="red_sdk_cash_send_per_default_money">¥0.00</string>
+    <string name="red_sdk_cash_send_group_default_money">0.00</string>
+    <string name="red_sdk_cash_send_per_edit_hint">填写金额</string>
+    <string name="red_sdk_cash_send_input_hint_number">填写个数</string>
+    <string name="red_sdk_cash_usable_value">可用余额0元</string>
+    <string name="red_sdk_cash_content_hint_per">恭喜发财，万事如意</string>
+    <string name="red_sdk_cash_total">总金额</string>
+    <string name="red_sdk_detail">详情 </string>
+    <string name="red_sdk_cash_redpacket">现金红包 </string>
+    <string name="red_sdk_flow_redpacket">流量红包 </string>
+    <string name="red_sdk_activity_center">活动中心 </string>
+    <string name="red_sdk_and_treasure">和聚宝 </string>
+    <string name="red_sdk_title_right_detailed">账单 </string>
+    <string name="red_sdk_rmb_unit">¥</string>
+    <string name="red_sdk_cash_my_money">可用余额%s元</string>
+    <string name="red_sdk_cash_edit_hint">输入1-999整数</string>
+    <string name="red_sdk_cash_single_info">单个现金</string>
+    <string name="red_sdk_cash_add_card">添加银行卡</string>
+    <string name="red_sdk_cash_tips_send">共发%s个红包</string>
+    <string name="red_sdk_cash_tips_receive">共收%s个红包</string>
+    <string name="red_sdk_cash_tips_receive_max">%s个手气最佳</string>
+    <string name="red_sdk_cash_tips_unreceive">未收%s个</string>
+    <string name="red_sdk_cash_small_change">和包余额</string>
+    <string name="red_sdk_cash_payment_support_by_ipos">支付能力由和包提供，您已在和包账户绑定银行卡</string>
+    <string name="red_sdk_cash_unbind_bank_card">解绑银行卡</string>
+    <string name="red_sdk_cash_balance_not_enough">零钱余额不足</string>
+    <string name="red_sdk_cash_my_balance">和包余额</string>
+    <string name="red_sdk_cash_recharge">充值</string>
+    <string name="red_sdk_cash_withdraw">提现</string>
+    <string name="red_sdk_cash_alter_ipos">原和飞信零钱已合并至和包余额</string>
+    <string name="red_sdk_cash_server_provider">本服务由中移电商提供</string>
+    
+    <string name="red_sdk_transaction_record">交易记录</string>
+    <string name="red_sdk_payment_manager">支付管理</string>
+    <string name="red_sdk_help_center">帮助中心</string>
+    <string name="red_sdk_payment_modify_password">修改支付密码</string>
+    <string name="red_sdk_payment_forget_password">忘记支付密码</string>
+    <string name="red_sdk_flow_insufficient_balance">当前流量不足</string>
+    <string name="red_sdk_login_failed">登录失败！</string>
+    <string name="red_sdk_main_area_cash_info">和包余额</string>
+    
+    <string name="red_sdk_payment_title">向商户付款</string>
+    <string name="red_sdk_payment_consum_amount">消费金额:</string>
+    <string name="red_sdk_payment_not_offer_amount">不可优惠金额:</string>
+    <string name="red_sdk_payment_merchant_offer_amount">商家优惠金额:</string>
+    <string name="red_sdk_payment_real_consum_amount">实际支付金额：</string>
+    <string name="red_sdk_payment_safe_alter_info">*请仔细核对交易信息后再进行支付。</string>
+    
+    <string name="red_sdk_browser_error">页面加载失败，请稍后重试。点击屏幕刷新</string>
+    <string name="red_sdk_browser_error_no_network">网络连接失败，点击屏幕刷新</string>
+
+    <string name="red_sdk_paying_merchant_next">下一步</string>
+    <string name="red_sdk_paying_merchant_ensure_paying">确认支付</string>
+    <string name="red_sdk_paying_merchant_success">支付成功</string>
+    <string name="red_sdk_paying_merchant_failed">支付失败</string>
+    <string name="red_sdk_paying_merchant_finish">完成</string>
+
+    <string name="red_sdk_flow_no_bill">暂无流量相关账单</string>
+    <string name="red_sdk_flow_no_available">暂无可用流量喔...</string>
+    <string name="red_sdk_flow_my_rcs_flow">我的流量</string>
+    
+    <string name="red_sdk_activity_center_no_activity">暂无活动</string>
+    <string name="red_sdk_activity_center_goto_detail">去看看>></string>
+    
+    <string name="activity_paper_detail">查看详情</string>
+    <string name="activity_paper_entrance">红包</string>
+    <string name="activity_paper_help">充值规则</string>
+
+    <!-- tag 标签页面 -->
+    <string name="gravity_left">left</string>
+    <string name="gravity_center">center</string>
+    <string name="gravity_right">right</string>
+
+    <!-- 下拉刷新 -->
+    <string name="my_listview_header_refresh_time_red">"最近更新:%1$s"</string>
+    <string name="pull_to_refresh_from_bottom_pull_label_red">上滑加载更多…</string>
+    <string name="pull_to_refresh_from_bottom_release_label_red">松手加载更多…</string>
+    <string name="pull_to_refresh_from_bottom_refreshing_label_red">正在加载…</string>
+    <string name="pull_to_refresh_pull_label_red" translatable="false">向下拉动可以刷新</string>
+    <string name="pull_to_refresh_release_label_red" translatable="false">松开可以刷新</string>
+    <string name="pull_to_refresh_refreshing_label_red" translatable="false">加载中&#8230;</string>
+
+</resources>
